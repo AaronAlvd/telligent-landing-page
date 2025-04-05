@@ -1,13 +1,15 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
+
+import { usePathname } from "next/navigation"
 
 import image01 from "../../../../public/image-01.webp"
 import image02 from "../../../../public/image-02.jpeg"
 import image03 from "../../../../public/image-03.jpeg"
 
 // import { ArrowLeft } from "lucide-react"
-
-import { Params } from 'next/dist/shared/lib/router/utils/route-matcher'
 
 // Custom component to parse and render the article content
 const ArticleContent = ({ content }: { content: string }) => {
@@ -285,9 +287,12 @@ const articles = [
   },
 ]
 
-export default function ArticlePage({ params }: { params: Params }) {
+export default function ArticlePage() {
+  const pathname = usePathname();
+  const slug = pathname.split('/')[2]
+
   // Find the article that matches the slug
-  const article = articles.find((article) => article.slug === params.slug)
+  const article = articles.find((article) => article.slug === slug)
 
   // If no article is found, you might want to handle this case
   if (!article) {
