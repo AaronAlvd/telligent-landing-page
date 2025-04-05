@@ -127,7 +127,7 @@ export default function ArticlesPage() {
               </div>
             </form>
             <p className="text-sm text-gray-500">
-              Limited spots available. We'll notify you when you're granted access.
+              Limited spots available. We&apos;sll notify you when you&apos;sre granted access.
             </p>
           </div>
         </div>

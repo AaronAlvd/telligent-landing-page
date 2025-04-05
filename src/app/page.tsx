@@ -1,8 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
+
 import { Mail } from "lucide-react"
+
 import logo from "../../public/logo.png"
-import telligent from "../../public/telligent.png"
 import image01 from "../../public/image-01.webp"
 import image02 from "../../public/image-02.jpeg"
 import image03 from "../../public/image-03.jpeg"
@@ -25,7 +26,7 @@ export default function ComingSoonPage() {
               <Image src={logo} className="h-[70px] w-auto" alt="telligent logo"/>
             </div>
             <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
-              We're building a new platform dedicated to mental health news, resources, and stories that matter.
+              We&apos;sre building a new platform dedicated to mental health news, resources, and stories that matter.
             </p>
 
             <div className="max-w-md mx-auto mb-12">
@@ -43,7 +44,7 @@ export default function ComingSoonPage() {
                   Notify Me
                 </button>
               </form>
-              <p className="mt-3 text-sm text-gray-500">We'll notify you when we launch. No spam, we promise.</p>
+              <p className="mt-3 text-sm text-gray-500">We&apos;sll notify you when we launch. No spam, we promise.</p>
             </div>
           </div>
         </section>
@@ -249,7 +250,7 @@ export default function ComingSoonPage() {
         <section id="contact" className="py-16 bg-red-50 px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Get in Touch</h3>
-            <p className="text-gray-600 mb-8">Have questions or want to collaborate? We'd love to hear from you.</p>
+            <p className="text-gray-600 mb-8">Have questions or want to collaborate? We&apos;sd love to hear from you.</p>
             <Link
               href="mailto:contact@mindfullnews.com"
               className="inline-flex items-center px-6 py-3 bg-red-600 text-white font-medium rounded-lg hover:bg-red-700 transition-colors"

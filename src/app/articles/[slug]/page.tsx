@@ -4,9 +4,8 @@ import Link from "next/link"
 import image01 from "../../../../public/image-01.webp"
 import image02 from "../../../../public/image-02.jpeg"
 import image03 from "../../../../public/image-03.jpeg"
-import image04 from "../../../../public/image-04.jpeg"
 
-import { ArrowLeft } from "lucide-react"
+// import { ArrowLeft } from "lucide-react"
 
 // Custom component to parse and render the article content
 const ArticleContent = ({ content }: { content: string }) => {
@@ -294,7 +293,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold mb-4">Article not found</h1>
-          <p className="mb-6">The article you're looking for doesn't exist or has been moved.</p>
+          <p className="mb-6">The article you&apos;sre looking for doesn&apos;st exist or has been moved.</p>
           <Link href="/" className="text-red-600 hover:text-red-800 font-medium">
             Return to homepage
           </Link>
@@ -379,7 +378,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <div className="mt-12 p-6 bg-red-50 rounded-xl">
             <h3 className="text-lg font-bold text-gray-800 mb-3">Share Your Feedback</h3>
             <p className="text-gray-600 mb-4">
-              This article is part of our beta release. We'd love to hear your thoughts to help us improve.
+              This article is part of our beta release. We&apos;sd love to hear your thoughts to help us improve.
             </p>
             <form className="space-y-4">
               <div>
