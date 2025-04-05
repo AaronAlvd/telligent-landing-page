@@ -1,6 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 
+import { GetServerSideProps } from 'next';
+
 import image01 from "../../../../public/image-01.webp"
 import image02 from "../../../../public/image-02.jpeg"
 import image03 from "../../../../public/image-03.jpeg"
@@ -283,7 +285,25 @@ const articles = [
   },
 ]
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
+interface ArticlePageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export const getServerSideProps: GetServerSideProps<ArticlePageProps> = async (context) => {
+  const { slug } = context.params as { slug: string };  // Ensure params are correctly typed
+
+  return {
+    props: {
+      params: {
+        slug,
+      },
+    },
+  };
+};
+
+export default function ArticlePage({ params }: ArticlePageProps) {
   // Find the article that matches the slug
   const article = articles.find((article) => article.slug === params.slug)
 
