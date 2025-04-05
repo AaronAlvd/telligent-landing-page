@@ -7,6 +7,8 @@ import image03 from "../../../../public/image-03.jpeg"
 
 // import { ArrowLeft } from "lucide-react"
 
+import { Params } from 'next/dist/shared/lib/router/utils/route-matcher'
+
 // Custom component to parse and render the article content
 const ArticleContent = ({ content }: { content: string }) => {
   // This function will parse the string content into structured JSX
@@ -283,7 +285,7 @@ const articles = [
   },
 ]
 
-export default async function ArticlePage({ params }: { params: { slug: string } }) {
+export default function ArticlePage({ params }: { params: Params }) {
   // Find the article that matches the slug
   const article = articles.find((article) => article.slug === params.slug)
 
