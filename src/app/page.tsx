@@ -19,10 +19,10 @@ export default function ComingSoonPage() {
       <meta name="robots" content="index, follow" />
 
       {/* Open Graph for Facebook */}
-      <meta property="og:title" content="Telligent | Mental Health Blog for Wellness & Self-Care" />
-      <meta property="og:description" content="Explore trusted mental health resources, expert insights, and personal stories at Telligent." />
+      <meta property="og:title" content="Telligent | Mental Health, Reltable & Resourceful" />
+      <meta property="og:description" content="Explore everyday content, social discourse, and beneficial resources, made to benefit mental and behavioral health." />
       <meta property="og:image" content="/preview-image.jpg" />
-      <meta property="og:url" content="https://telligent.com" />
+      <meta property="og:url" content="https://telligent.agency" />
       <meta property="og:type" content="website" />
 
       {/* Twitter Card */}
