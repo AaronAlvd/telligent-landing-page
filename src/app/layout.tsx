@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
-import telligentIcon from "../../public/favicon_io/favicon-32x32.png"
-
 import Footer from "./footer"
 import Header from "./header"
 
