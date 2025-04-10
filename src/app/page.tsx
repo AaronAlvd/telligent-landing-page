@@ -12,21 +12,45 @@ import image05 from "../../public/image-05.png"
 
 export default function ComingSoonPage() {
   return (
+    <>
+    <head>
+      <title>Telligent | Mental Health Blog for Wellness & Self-Care</title>
+      <meta name="description" content="Telligent is a mental health blog platform featuring trusted resources, wellness tips, and diverse personal stories to support your self-care journey." />
+      <meta name="keywords" content="mental health, self-care, wellness, therapy, anxiety, depression, mindfulness, support" />
+      <meta name="robots" content="index, follow" />
+
+      {/* Open Graph for Facebook */}
+      <meta property="og:title" content="Telligent | Mental Health Blog for Wellness & Self-Care" />
+      <meta property="og:description" content="Explore trusted mental health resources, expert insights, and personal stories at Telligent." />
+      <meta property="og:image" content="/preview-image.jpg" />
+      <meta property="og:url" content="https://telligent.com" />
+      <meta property="og:type" content="website" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Telligent | Mental Health Blog for Wellness & Self-Care" />
+      <meta name="twitter:description" content="Explore trusted mental health resources, expert insights, and personal stories at Telligent." />
+      <meta name="twitter:image" content="/preview-image.jpg" />
+    </head>
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-red-50 to-white">
       <main className="flex-grow">
-        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8">
+        <section className="pb-16 md:pb-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto text-center">
+
             <div className="mb-8 inline-block p-2 bg-red-100 rounded-full">
               <div className="w-16 h-16 rounded-full bg-red-500 flex items-center justify-center">
                 <Mail className="w-8 h-8 text-white" />
               </div>
             </div>
+
             {/* <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">Coming Soon</h2> */}
+
             <div className="flex justify-center mb-4">
               <Image src={logo} className="h-[70px] w-auto" alt="telligent logo"/>
             </div>
+
             <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
-              We&apos;sre building a new platform dedicated to mental health news, resources, and stories that matter.
+              We&apos;re building a new platform dedicated to mental health news, resources, and stories that matter.
             </p>
 
             <div className="max-w-md mx-auto mb-12">
@@ -59,7 +83,7 @@ export default function ComingSoonPage() {
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-800">Reliable Information</h4>
                 <p className="text-gray-600">
-                  Providing evidence-based mental health news and resources you can trust.
+                  Providing evidence-based mental health news and resources you can trust, helping you stay informed and supported on your journey to well-being.
                 </p>
               </div>
               <div className="bg-red-50 p-6 rounded-xl">
@@ -67,14 +91,18 @@ export default function ComingSoonPage() {
                   <span className="text-red-600 font-bold text-xl">2</span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-800">Diverse Perspectives</h4>
-                <p className="text-gray-600">Sharing stories from diverse voices and experiences in mental health.</p>
+                <p className="text-gray-600">
+                  Sharing powerful stories from diverse voices and experiences, shedding light on mental health struggles, triumphs, and the path to healing.
+                </p>
               </div>
               <div className="bg-red-50 p-6 rounded-xl">
                 <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center mb-4">
                   <span className="text-red-600 font-bold text-xl">3</span>
                 </div>
                 <h4 className="text-xl font-semibold mb-3 text-gray-800">Reducing Stigma</h4>
-                <p className="text-gray-600">Breaking down barriers and misconceptions around mental health issues.</p>
+                <p className="text-gray-600">
+                  Breaking down barriers and challenging misconceptions surrounding mental health, fostering understanding, acceptance, and support for all.
+                </p>
               </div>
             </div>
           </div>
@@ -234,16 +262,6 @@ export default function ComingSoonPage() {
                 </div>
               </div>
             </div>
-
-            {/* <div className="mt-10 text-center">
-              <Link
-                href="#"
-                className="inline-flex items-center px-5 py-2.5 border-2 border-red-600 text-red-600 font-medium rounded-lg hover:bg-red-50 transition-colors"
-              >
-                Request Beta Access
-              </Link>
-              <p className="mt-3 text-sm text-gray-500">Limited spots available for our beta testing program.</p>
-            </div> */}
           </div>
         </section>
 
@@ -262,5 +280,6 @@ export default function ComingSoonPage() {
         </section>
       </main>
     </div>
+    </>
   )
 }

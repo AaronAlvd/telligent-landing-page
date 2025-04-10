@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Telligent",
+  title: "Telligent | Mental Health Blog for Wellness, Self-Care & Personal Growth",
   description: "Telligent is a mental health blog sharing insights, stories, and resources to support emotional well-being, self-care, and personal growth.",
 };
 
