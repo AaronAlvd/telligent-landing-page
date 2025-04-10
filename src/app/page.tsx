@@ -38,7 +38,7 @@ export default function ComingSoonPage() {
           <div className="max-w-5xl mx-auto text-center">
             <div className="mb-6">
               <span className="inline-block px-4 py-1 bg-red-100 text-red-700 font-medium rounded-full text-sm">
-                Mental Health Resources
+                Mental Health Discussion
               </span>
             </div>
 
