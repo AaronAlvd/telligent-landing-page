@@ -47,7 +47,7 @@ export default function ComingSoonPage() {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Empowering minds through knowledge, connection, and compassionate resources.
+              Explore everyday content, social discourse, and beneficial resources, made to benefit mental and behavioral health.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
