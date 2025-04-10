@@ -43,7 +43,7 @@ export default function ComingSoonPage() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              Welcome to <span className="text-red-600">telligent</span>
+              Discover <span className="text-red-600">Telligent</span>: Leading Mental Health Resources & Support Hub
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
@@ -86,9 +86,9 @@ export default function ComingSoonPage() {
               <Image src={logo} className="h-[70px] w-auto" alt="telligent logo"/>
             </div>
 
-            <h1 className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
               We&apos;re building a new platform dedicated to mental health news, resources, and stories that matter.
-            </h1>
+            </p>
 
             <div className="max-w-md mx-auto mb-12">
               <form className="flex flex-col sm:flex-row gap-3">
