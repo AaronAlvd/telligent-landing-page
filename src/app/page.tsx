@@ -71,7 +71,7 @@ export default function ComingSoonPage() {
           </div>
         </section>
 
-        <section className="pb-16 md:pb-24 px-4 sm:px-6 lg:px-8">
+        <section className="py-16 md:py-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto text-center">
 
             <div className="mb-8 inline-block p-2 bg-red-100 rounded-full">
