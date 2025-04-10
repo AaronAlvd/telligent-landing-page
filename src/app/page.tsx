@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Mail } from "lucide-react"
+import { Mail, ExternalLink, Phone } from "lucide-react"
 
 import logo from "../../public/logo.png"
 import image01 from "../../public/image-01.webp"
@@ -15,7 +15,6 @@ export default function ComingSoonPage() {
     <>
     <head>
       <title>Telligent | Mental Health Blog for Wellness & Self-Care</title>
-      <meta name="description" content="Telligent is a mental health blog platform featuring trusted resources, wellness tips, and diverse personal stories to support your self-care journey." />
       <meta name="keywords" content="mental health, self-care, wellness, therapy, anxiety, depression, mindfulness, support" />
       <meta name="robots" content="index, follow" />
 
@@ -34,6 +33,44 @@ export default function ComingSoonPage() {
     </head>
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-red-50 to-white">
       <main className="flex-grow">
+
+        <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto text-center">
+            <div className="mb-6">
+              <span className="inline-block px-4 py-1 bg-red-100 text-red-700 font-medium rounded-full text-sm">
+                Mental Health Resources
+              </span>
+            </div>
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
+              Welcome to <span className="text-red-600">telligent</span>
+            </h1>
+
+            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+              Empowering minds through knowledge, connection, and compassionate resources.
+            </p>
+
+            <div className="flex flex-wrap justify-center gap-4">
+              <a
+                href="#about"
+                className="px-6 py-3 bg-red-500 text-white font-medium rounded-lg hover:bg-red-600 transition-colors"
+              >
+                Our Mission
+              </a>
+              <a
+                href="#contact"
+                className="px-6 py-3 border border-red-500 text-red-500 font-medium rounded-lg hover:bg-red-50 transition-colors"
+              >
+                Get in Touch
+              </a>
+            </div>
+
+            <div className="mt-12 flex justify-center">
+              <div className="w-16 h-1 bg-red-500 rounded-full"></div>
+            </div>
+          </div>
+        </section>
+
         <section className="pb-16 md:pb-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto text-center">
 
@@ -49,9 +86,9 @@ export default function ComingSoonPage() {
               <Image src={logo} className="h-[70px] w-auto" alt="telligent logo"/>
             </div>
 
-            <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
+            <h1 className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
               We&apos;re building a new platform dedicated to mental health news, resources, and stories that matter.
-            </p>
+            </h1>
 
             <div className="max-w-md mx-auto mb-12">
               <form className="flex flex-col sm:flex-row gap-3">
@@ -169,8 +206,7 @@ export default function ComingSoonPage() {
                 <div className="p-5">
                   <h4 className="font-bold text-lg mb-2 text-black">5 Mindfulness Techniques for Daily Anxiety</h4>
                   <p className="text-gray-600 text-sm mb-4">
-                    Simple practices you can incorporate into your routine to manage anxiety and improve mental
-                    wellbeing.
+                  Simple practices for managing anxiety and improving wellbeing include deep breathing, exercise, good sleep, mindfulness, and staying connected.
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-xs text-gray-500">June 15, 2023</span>
@@ -206,7 +242,7 @@ export default function ComingSoonPage() {
                 <div className="p-5">
                   <h4 className="font-bold text-lg mb-2 text-black">Creating a Mental Health-Friendly Workplace</h4>
                   <p className="text-gray-600 text-sm mb-4">
-                    How employers can foster environments that support employee mental health and wellbeing.
+                  Employers can support mental health by promoting open communication, offering flexibility, providing resources, and fostering a supportive culture.
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-xs text-gray-500">June 22, 2023</span>
@@ -242,7 +278,7 @@ export default function ComingSoonPage() {
                 <div className="p-5">
                   <h4 className="font-bold text-lg mb-2 text-black">The Connection Between Sleep and Mental Health</h4>
                   <p className="text-gray-600 text-sm mb-4">
-                    Research findings on how quality sleep impacts your mental wellbeing and tips for better rest.
+                    Research on how quality sleep boosts mental wellbeing, improving mood and reducing stress, plus tips for better rest like sticking to a sleep schedule and limiting screen time.
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="text-xs text-gray-500">July 3, 2023</span>
@@ -278,6 +314,7 @@ export default function ComingSoonPage() {
             </Link>
           </div>
         </section>
+
       </main>
     </div>
     </>
