@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Mail, ExternalLink, Phone } from "lucide-react"
+import { Mail } from "lucide-react"
 
 import logo from "../../public/logo.png"
 import image01 from "../../public/image-01.webp"
