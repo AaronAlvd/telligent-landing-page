@@ -43,7 +43,7 @@ export default function ComingSoonPage() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-              Discover <span className="text-red-600">Telligent</span>: Leading Mental Health Resources & Support Hub
+              <span className="text-red-500">The Telligent Agency</span>: Relatable and Resourceful
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
