@@ -13,24 +13,6 @@ import image05 from "../../public/image-05.png"
 export default function ComingSoonPage() {
   return (
     <>
-    <head>
-      <title>Telligent | Mental Health Blog for Wellness & Self-Care</title>
-      <meta name="keywords" content="mental health, self-care, wellness, therapy, anxiety, depression, mindfulness, support" />
-      <meta name="robots" content="index, follow" />
-
-      {/* Open Graph for Facebook */}
-      <meta property="og:title" content="The Telligent Agency: Relatable and Resourceful" />
-      <meta property="og:description" content="Explore everyday content, social discourse, and beneficial resources, made to benefit mental and behavioral health." />
-      <meta property="og:image" content="/preview-image.jpg" />
-      <meta property="og:url" content="https://telligent.agency" />
-      <meta property="og:type" content="website" />
-
-      {/* Twitter Card */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Telligent | Mental Health Blog for Wellness & Self-Care" />
-      <meta name="twitter:description" content="Explore trusted mental health resources, expert insights, and personal stories at Telligent." />
-      <meta name="twitter:image" content="/preview-image.jpg" />
-    </head>
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-red-50 to-white">
       <main className="flex-grow">
 
