@@ -90,41 +90,41 @@ const articles = [
     readTime: "6 min read",
     image: image01,
     content: `<p>Anxiety is a common experience that affects millions of people worldwide. While occasional anxiety is a normal part of life, persistent anxiety can interfere with daily activities and overall wellbeing. Mindfulness—the practice of being present and fully engaged with whatever we're doing—offers powerful tools to manage anxiety symptoms.</p>
-      
-<h2>1. Mindful Breathing</h2>
-<p>One of the simplest yet most effective mindfulness techniques is focused breathing. When anxiety strikes, try this:</p>
-<ul>
-<li>Find a comfortable position and close your eyes</li>
-<li>Breathe in slowly through your nose for a count of four</li>
-<li>Hold your breath for a count of two</li>
-<li>Exhale slowly through your mouth for a count of six</li>
-<li>Repeat for 5-10 minutes</li>
-</ul>
-<p>This technique activates your parasympathetic nervous system, which helps counteract the fight-or-flight response associated with anxiety.</p>
-      
-<h2>2. Body Scan Meditation</h2>
-<p>A body scan meditation involves paying attention to parts of your body and bodily sensations in a gradual sequence, typically from your feet to your head.</p>
-<p>Start by bringing awareness to your feet, noticing any sensations without judgment. Gradually move your attention up through your body—ankles, calves, knees, and so on—until you reach the top of your head. This practice helps ground you in the present moment and release physical tension you may not realize you're holding.</p>
-      
-<h2>3. The 5-4-3-2-1 Grounding Technique</h2>
-<p>When anxiety makes you feel disconnected from reality, this sensory awareness exercise can help bring you back to the present:</p>
-<ul>
-<li>Acknowledge 5 things you can see</li>
-<li>Acknowledge 4 things you can touch</li>
-<li>Acknowledge 3 things you can hear</li>
-<li>Acknowledge 2 things you can smell</li>
-<li>Acknowledge 1 thing you can taste</li>
-</ul>
-<p>This technique engages all five senses to anchor you in the here and now, making it particularly effective during anxiety attacks.</p>
-      
-<h2>4. Mindful Walking</h2>
-<p>Mindful walking combines physical activity with mindfulness. As you walk, pay close attention to the lifting and falling of your feet, the rhythm of your breath, and the feeling of air on your skin. Notice the sights, sounds, and smells around you without getting caught up in them.</p>
-<p>Even a short 10-minute mindful walk can significantly reduce anxiety levels and improve your mood.</p>
-      
-<h2>5. Thought Labeling</h2>
-<p>When anxious thoughts arise, try labeling them without judgment. For example, if you're worried about an upcoming presentation, simply note "worrying thought" and let it pass. This creates distance between you and your thoughts, helping you realize that thoughts are just mental events, not facts.</p>
-      
-<p>Consistency is key with mindfulness practices. Even a few minutes daily can lead to significant improvements in anxiety management over time. Remember that mindfulness is a skill that develops with practice, so be patient with yourself as you incorporate these techniques into your daily routine.</p>`,
+        
+      <h2>1. Mindful Breathing</h2>
+      <p>One of the simplest yet most effective mindfulness techniques is focused breathing. When anxiety strikes, try this:</p>
+      <ul>
+      <li>Find a comfortable position and close your eyes</li>
+      <li>Breathe in slowly through your nose for a count of four</li>
+      <li>Hold your breath for a count of two</li>
+      <li>Exhale slowly through your mouth for a count of six</li>
+      <li>Repeat for 5-10 minutes</li>
+      </ul>
+      <p>This technique activates your parasympathetic nervous system, which helps counteract the fight-or-flight response associated with anxiety.</p>
+            
+      <h2>2. Body Scan Meditation</h2>
+      <p>A body scan meditation involves paying attention to parts of your body and bodily sensations in a gradual sequence, typically from your feet to your head.</p>
+      <p>Start by bringing awareness to your feet, noticing any sensations without judgment. Gradually move your attention up through your body—ankles, calves, knees, and so on—until you reach the top of your head. This practice helps ground you in the present moment and release physical tension you may not realize you're holding.</p>
+            
+      <h2>3. The 5-4-3-2-1 Grounding Technique</h2>
+      <p>When anxiety makes you feel disconnected from reality, this sensory awareness exercise can help bring you back to the present:</p>
+      <ul>
+      <li>Acknowledge 5 things you can see</li>
+      <li>Acknowledge 4 things you can touch</li>
+      <li>Acknowledge 3 things you can hear</li>
+      <li>Acknowledge 2 things you can smell</li>
+      <li>Acknowledge 1 thing you can taste</li>
+      </ul>
+      <p>This technique engages all five senses to anchor you in the here and now, making it particularly effective during anxiety attacks.</p>
+            
+      <h2>4. Mindful Walking</h2>
+      <p>Mindful walking combines physical activity with mindfulness. As you walk, pay close attention to the lifting and falling of your feet, the rhythm of your breath, and the feeling of air on your skin. Notice the sights, sounds, and smells around you without getting caught up in them.</p>
+      <p>Even a short 10-minute mindful walk can significantly reduce anxiety levels and improve your mood.</p>
+            
+      <h2>5. Thought Labeling</h2>
+      <p>When anxious thoughts arise, try labeling them without judgment. For example, if you're worried about an upcoming presentation, simply note "worrying thought" and let it pass. This creates distance between you and your thoughts, helping you realize that thoughts are just mental events, not facts.</p>
+            
+      <p>Consistency is key with mindfulness practices. Even a few minutes daily can lead to significant improvements in anxiety management over time. Remember that mindfulness is a skill that develops with practice, so be patient with yourself as you incorporate these techniques into your daily routine.</p>`,
     tags: ["anxiety", "mindfulness", "mental health", "wellness", "self-care"],
     relatedArticles: [
       {
