@@ -42,7 +42,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-sm text-gray-400">
-              &copy; {new Date().getFullYear()} MindfulNews. All rights reserved.
+              &copy; {new Date().getFullYear()} Telligent Agency. All rights reserved.
             </p>
           </div>
         </div>
