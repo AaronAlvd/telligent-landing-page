@@ -308,7 +308,7 @@ export default function ComingSoonPage() {
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Get in Touch</h3>
             <p className="text-gray-600 mb-8">Have questions or want to collaborate? We&apos;sd love to hear from you.</p>
             <Link
-              href="mailto:contact@mindfullnews.com"
+              href="mailto:hello@telligent.agency"
               className="inline-flex items-center px-6 py-3 bg-red-600 text-white font-medium rounded-lg hover:bg-red-700 transition-colors"
             >
               <Mail className="w-5 h-5 mr-2" />
