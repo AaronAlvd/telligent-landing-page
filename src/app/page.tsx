@@ -72,7 +72,7 @@ export default function ComingSoonPage() {
               We&apos;re building a new platform dedicated to mental health news, resources, and stories that matter.
             </p>
 
-            <div className="max-w-md mx-auto mb-12">
+            {/* <div className="max-w-md mx-auto mb-12">
               <form className="flex flex-col sm:flex-row gap-3">
                 <input
                   type="email"
@@ -88,6 +88,26 @@ export default function ComingSoonPage() {
                 </button>
               </form>
               <p className="mt-3 text-sm text-gray-500">We&apos;sll notify you when we launch. No spam, we promise.</p>
+            </div> */}
+
+            <div className="w-full h-[432px] rounded-md overflow-hidden">
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/kLvUUjJIjVhRf0rZRBFc"
+                className="w-full h-full border-none"
+                id="inline-kLvUUjJIjVhRf0rZRBFc"
+                data-layout='{"id":"INLINE"}'
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Telligent email notify me button"
+                data-height="432"
+                data-layout-iframe-id="inline-kLvUUjJIjVhRf0rZRBFc"
+                data-form-id="kLvUUjJIjVhRf0rZRBFc"
+                title="Telligent email notify me button"
+              ></iframe>
             </div>
           </div>
         </section>
